@@ -16,11 +16,11 @@
 # -l: Log file
 
 # Input file Example
-# Replica,Direction,ConflictRes,ConflictDetect
+# ParentReplica,ChildReplica,Direction,ConflictRes,ConflictDetect
 # DBO.GeoparcelsToAGSPub,GeoparcelsToAGSPub,FROM_GEODATABASE1_TO_2,MANUAL,BY_ATTRIBUTE
 
 # Input file format
-# Required field header: Replica,Direction,ConflictRes,ConflictDetect
+# Required field header: ParentReplica,ChildReplica,,Direction,ConflictRes,ConflictDetect
 # Parent Replica: Name of valid replica
 # Child Replica: Name of valid replica
 # Direcion: Valid options (BOTH_DIRECTIONS, FROM_GEODATABASE2_TO_1, FROM_GEODATABASE1_TO_2)  See ArcGIS help for Synchronzize changes tool
