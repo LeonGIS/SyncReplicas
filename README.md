@@ -1,4 +1,4 @@
-Name - SyncReplicas
+#SyncReplicas
 
 Description - Reads in command line arguements for synchronizing replicas for Esri geodatabases.
 
