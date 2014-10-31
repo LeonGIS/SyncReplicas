@@ -1,0 +1,3 @@
+ParentReplica,ChildReplica,Direction,ConflictRes,ConflictDetect
+DBO.StormToSync,StormToSync,FROM_GEODATABASE1_TO_2,MANUAL,BY_ATTRIBUTE
+DBO.SewerToSync,SewerToSync,FROM_GEODATABASE1_TO_2,MANUAL,BY_ATTRIBUTE
