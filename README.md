@@ -19,8 +19,8 @@ Input file format:
 Requires field headers on 1st line -  ParentReplica,ChildReplica,,Direction,ConflictRes,ConflictDetect
 Each subsequent line has the following information
 
-# Parent Replica: Name of valid replica
-# Child Replica: Name of valid replica
-# Direcion: Valid options (BOTH_DIRECTIONS, FROM_GEODATABASE2_TO_1, FROM_GEODATABASE1_TO_2)  See ArcGIS help for Synchronzize changes tool
-# ConflictRes: Conflict resolution options (MANUAL, IN_FAVOR_OF_GDB1, IN_FAVOR_OF_GDB2)   See ArcGIS help for Synchronzize changes tool
-# ConflictDetect: How conflicts are defined options (BY_OBJECT, BY_ATTRIBUTE) See ArcGIS help for Synchronzize changes tool
+* Parent Replica: Name of valid replica
+*  Child Replica: Name of valid replica
+*  Direcion: Valid options (BOTH_DIRECTIONS, FROM_GEODATABASE2_TO_1, FROM_GEODATABASE1_TO_2)  See ArcGIS help for Synchronzize changes tool
+*  ConflictRes: Conflict resolution options (MANUAL, IN_FAVOR_OF_GDB1, IN_FAVOR_OF_GDB2)   See ArcGIS help for Synchronzize changes tool
+*  ConflictDetect: How conflicts are defined options (BY_OBJECT, BY_ATTRIBUTE) See ArcGIS help for Synchronzize changes tool
