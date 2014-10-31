@@ -6,10 +6,10 @@ Command Line Example:
 SyncReplicas.py -p "Database Connections\\YourDb.sde"  -c "\\YourServer\\serverdata\\YourRemotePub.gdb" -i "C:\development\Python\SyncReplicas\agspub.txt" -l "C:\development\Python\SyncReplicas\Sync.log"
 
 Command Line Arguments:
-*-p: Parent geodatabase connection*
-*-c: Child geodatabase connection*
-*-i: CSV file of replicas to sync between parent and child*
-*-l: Log file*
+* -p: Parent geodatabase connection
+* -c: Child geodatabase connection
+* -i: CSV file of replicas to sync between parent and child
+* -l: Log file
 
 Input file Example:
 ParentReplica,ChildReplica,Direction,ConflictRes,ConflictDetect
